@@ -1,0 +1,162 @@
+{
+  "city": "San Luis Río Colorado",
+  "state": "Sonora",
+  "country": "Mexico",
+  "coordinates": {
+    "latitude": 32.485,
+    "longitude": -114.7686
+  },
+  "populationServed": 250000,
+  "dateCollected": "2025-11-27",
+  "lastUpdated": "2025-11-27",
+  "responsibleOrganization": "Organismo Operador Municipal de Agua Potable, Alcantarillado y Saneamiento de San Luis Río Colorado (OOMAPAS)",
+  "contactInfo": "https://oomapasslrc.gob.mx",
+  "budgetUSD": null,
+  "imageURLs": [],
+  "topics": {
+    "waterFacilities": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "gauge",
+      "locationContext": "San Luis Río Colorado (SLRC) is located in northwestern Sonora, Mexico, adjacent to the Colorado River and the U.S. state of Arizona. Water and wastewater services are provided by the Organismo Operador Municipal de Agua Potable, Alcantarillado y Saneamiento (OOMAPAS).",
+      "systemOverview": "The city operates a unique wastewater treatment plant (PTAR) with natural recharge via anaerobic oxidation lagoons, and has plans for a conventional treatment plant. Potable water comes from wells tapping the river aquifer.",
+      "capacityProfile": {
+        "description": "The existing PTAR discharges about 390 L/s (~8.9 MGD), infiltrating around 10 million m³ of treated water per year into the aquifer. The system comprises anaerobic lagoons and natural recharge wetlands; it is described as the only such system in Latin America. A proposed project would construct a new wastewater treatment plant with capacity 400 L/s (9.1 MGD) and rehabilitate the sewer system.",
+        "currentPTAR": {
+          "discharge": { "value": 390, "unit": "L/s", "equivalentMGD": 8.9 },
+          "annualInfiltration": { "value": 10000000, "unit": "m³/year" },
+          "unique": "Only such system in Latin America"
+        },
+        "proposedPlant": {
+          "capacity": { "value": 400, "unit": "L/s", "equivalentMGD": 9.1 }
+        }
+      },
+      "operationalDetails": "The PTAR uses anaerobic and facultative lagoons that promote natural infiltration; treated water supports the Cucapá wetland and irrigates 500 native trees. OOMAPAS manages operations and reforestation activities. Potable water wells pump to storage tanks and distribution systems.",
+      "regulatoryContext": "Effluent quality must meet NOM‑001‑ECOL‑1996. The proposed plant design considered effluent limits for BOD (75 mg/L monthly average), TSS (75 mg/L), nitrogen, phosphorus and metals. Drinking water must meet NOM‑127.",
+      "performanceTrends": "Infiltration volume is relatively constant; flows may increase during rainy season. The PTAR supports wetland habitat and reforestation.",
+      "waterQualityIndicators": {
+        "description": "No quantitative effluent data; effluent is claimed to match the quality of water extracted from wells.",
+        "proposedLimits": {
+          "temperature": { "value": 40, "unit": "°C" },
+          "BOD": { "value": 75, "unit": "mg/L", "period": "monthly average" },
+          "TSS": { "value": 75, "unit": "mg/L" },
+          "nitrogen": { "value": 40, "unit": "mg/L" },
+          "phosphorus": { "value": 20, "unit": "mg/L" },
+          "arsenic": { "value": 0.1, "unit": "mg/L" }
+        }
+      },
+      "energyUsage": "The lagoon system relies on gravity and natural processes with minimal energy use; new mechanical plants would require pumps and aerators.",
+      "monitoringMethods": "Current monitoring likely includes periodic sampling for BOD, TSS and coliforms; proposed plant design anticipated standard laboratory analyses.",
+      "treatmentTechnologies": "Existing system uses anaerobic and facultative lagoons with natural recharge. Proposed project would employ conventional treatment (stabilization ponds or oxidation ditches) and pumping stations.",
+      "challenges": [
+        "Only ~37% of the population is connected to the sewer system",
+        "Raw wastewater discharges to the Colorado River cause stagnation and health risks",
+        "Current lagoon system may not remove all contaminants"
+      ],
+      "opportunities": [
+        "Constructing a new treatment plant and expanding sewer coverage would reduce river pollution",
+        "Natural recharge wetlands provide habitat and groundwater replenishment"
+      ],
+      "dataSources": "OOMAPAS news article on PTAR capacity and infiltration; NADBank project summary with proposed plant capacity and effluent limits. Lack of published water quality data limits analysis."
+    },
+    "microplastics": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "gauge",
+      "locationContext": "SLRC is adjacent to the Colorado River; microplastics can originate from urban litter, agricultural plastics and riverine transport.",
+      "systemOverview": "No studies have reported microplastics in SLRC's water or wastewater. Due to the natural infiltration system, small particles may be retained in lagoons or recharge wetlands.",
+      "concentrationProfile": {
+        "description": "No quantitative data; microplastic concentrations are unknown.",
+        "dataAvailable": false,
+        "comparativeData": {
+          "LARiver": { "range": { "min": 0.05, "max": 16 }, "unit": "particles/m³" },
+          "TijuanaStormwater": { "range": { "min": 66, "max": 191 }, "unit": "particles/L" }
+        }
+      },
+      "operationalDetails": "The lagoon system may settle larger microplastic particles but small particles could infiltrate into the aquifer. There is no microplastic monitoring.",
+      "regulatoryContext": "Mexico does not regulate microplastics; California's monitoring may set precedent for future cross‑border policies.",
+      "performanceTrends": "No data available.",
+      "waterQualityIndicators": "Not applicable due to lack of data.",
+      "energyUsage": "Current natural treatment uses minimal energy; adding microplastic removal would increase energy demands.",
+      "monitoringMethods": "Potential methods include filtration, digestion and spectroscopic identification; not implemented.",
+      "treatmentTechnologies": "Natural wetlands may trap some microplastics; future upgrades could include fine filtration or constructed wetlands.",
+      "challenges": [
+        "Lack of data",
+        "Potential infiltration of microplastics into aquifers",
+        "Cross‑border plastic pollution from the Colorado River"
+      ],
+      "opportunities": [
+        "Research on microplastic behavior in natural recharge systems",
+        "Public campaigns to reduce plastic waste",
+        "Integration of microplastic monitoring into new treatment plant design"
+      ],
+      "dataSources": "No SLRC‑specific data; contextual studies from nearby regions."
+    },
+    "waterContamination": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "bar",
+      "locationContext": "SLRC sits along the Colorado River; limited sewer coverage results in significant contamination of the river and aquifer.",
+      "systemOverview": "The existing sewer network covers only about 37% of the population, resulting in untreated wastewater being discharged to the Colorado River or septic systems. Contaminants include BOD, TSS, pathogens, nutrients and potentially metals.",
+      "contaminantProfile": {
+        "description": "The project summary notes that the existing sewer system could not convey community wastewater, leading to spills and stagnant pools.",
+        "sewerCoverage": {
+          "current": 37,
+          "planned": 85,
+          "unit": "%"
+        },
+        "proposedLimits": {
+          "BOD": { "value": 75, "unit": "mg/L" },
+          "TSS": { "value": 75, "unit": "mg/L" },
+          "nitrogen": { "value": 40, "unit": "mg/L" },
+          "phosphorus": { "value": 20, "unit": "mg/L" }
+        }
+      },
+      "operationalDetails": "Sewer rehabilitation and expansion are planned to increase coverage from 37% to 85% of the population. The PTAR currently uses lagoons; proposed plant will use conventional treatment.",
+      "regulatoryContext": "Discharges must meet NOM‑001 effluent limits. Raw wastewater discharges to the Colorado River violate treaty agreements and pose health risks.",
+      "performanceTrends": "During dry periods, untreated discharges create stagnant pools with high pathogen levels; in wet periods, flows may dilute pollutants but also transport them downstream.",
+      "waterQualityIndicators": "Limited data; possible high fecal coliforms and nutrient concentrations. Proposed limits: BOD ≤75 mg/L, TSS ≤75 mg/L, nitrogen ≤40 mg/L, phosphorus ≤20 mg/L.",
+      "energyUsage": "Current lagoon system has low energy use; new plant would need pumps and aerators.",
+      "monitoringMethods": "Monitoring is sporadic; proposed plant would require routine sampling for BOD, TSS, nutrients and metals.",
+      "treatmentTechnologies": "Proposed oxidation ditches or stabilization ponds; expansion of sewer coverage; natural wetlands for polishing.",
+      "challenges": [
+        "Low sewer coverage leads to contamination and disease",
+        "Funding limitations",
+        "Potential infiltration of contaminants into the aquifer"
+      ],
+      "opportunities": [
+        "Construction of new treatment plant and sewer expansion could dramatically improve water quality and public health"
+      ],
+      "dataSources": "NADBank project summary; OOMAPAS news article. Lack of measured contaminant concentrations."
+    },
+    "waterQuality": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "line",
+      "locationContext": "Potable water is supplied from wells drawing from the Colorado River aquifer; distribution covers the city and rural areas.",
+      "systemOverview": "Quality is influenced by natural mineral content and possible contamination from septic systems and agricultural runoff. Public reporting is limited.",
+      "qualityProfile": {
+        "description": "No public data on pH, TDS or contaminant levels. Colorado River water typically has TDS ~700 mg/L, hardness ~250 mg/L and nitrate ~2 mg/L.",
+        "estimates": {
+          "TDS": { "value": 700, "unit": "mg/L", "source": "Colorado River estimate" },
+          "hardness": { "value": 250, "unit": "mg/L", "source": "Colorado River estimate" },
+          "nitrate": { "value": 2, "unit": "mg/L", "source": "Colorado River estimate" }
+        }
+      },
+      "operationalDetails": "OOMAPAS pumps groundwater, disinfects with chlorine, and stores water in tanks. System leaks and illegal connections may compromise quality.",
+      "regulatoryContext": "Must meet NOM‑127 standards; compliance reports are not published.",
+      "performanceTrends": "Quality may vary with aquifer conditions and seasonal demand.",
+      "waterQualityIndicators": "Potential parameters of interest: TDS, hardness, nitrate, arsenic and fluoride. Without data, values are estimated from Colorado River water.",
+      "energyUsage": "Energy used for pumping; natural treatment for wastewater uses minimal energy.",
+      "monitoringMethods": "Routine monitoring likely includes chlorine residual and coliforms; no microplastics or PFAS monitoring.",
+      "treatmentTechnologies": "Chlorination for disinfection; proposed new plant would improve wastewater quality and reduce contamination of groundwater.",
+      "challenges": [
+        "Limited data",
+        "High mineral content",
+        "Contamination from septic systems",
+        "Reliance on Colorado River water"
+      ],
+      "opportunities": [
+        "Improving data transparency",
+        "Constructing new wastewater treatment plant and expanding sewer coverage"
+      ],
+      "dataSources": "OOMAPAS news article; NADBank project summary; absence of quantitative water quality data."
+    }
+  }
+}

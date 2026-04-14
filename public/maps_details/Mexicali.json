@@ -1,0 +1,161 @@
+{
+  "city": "Mexicali",
+  "state": "Baja California",
+  "country": "Mexico",
+  "coordinates": {
+    "latitude": 32.6245,
+    "longitude": -115.4523
+  },
+  "populationServed": 1100000,
+  "dateCollected": "2025-11-27",
+  "lastUpdated": "2025-11-27",
+  "responsibleOrganization": "Comisión Estatal de Servicios Públicos de Mexicali (CESPM)",
+  "contactInfo": "https://www.cespm.gob.mx",
+  "budgetUSD": null,
+  "imageURLs": [],
+  "topics": {
+    "waterFacilities": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "gauge",
+      "locationContext": "Mexicali, the capital of Baja California, lies on the U.S.–Mexico border adjacent to the Colorado River. The Comisión Estatal de Servicios Públicos de Mexicali (CESPM) manages water supply and wastewater services.",
+      "systemOverview": "Mexicali operates multiple potable water treatment plants and an extensive network of canals and wells. Wastewater treatment is provided by several plants and pumping stations.",
+      "capacityProfile": {
+        "description": "CESPM operates three major water treatment plants with capacities: Plant 1 (1 800 L/s), Plant 2 (2 500 L/s) and Plant 3 (1 250 L/s). Combined, they can treat 5 550 L/s (~487 MGD) although actual production varies. The city runs 26 potable water systems across Mexicali Valley and San Felipe, sourcing 65% of water from canals and 35% from wells.",
+        "treatmentPlants": {
+          "Plant_1": { "capacity": { "value": 1800, "unit": "L/s" } },
+          "Plant_2": { "capacity": { "value": 2500, "unit": "L/s" } },
+          "Plant_3": { "capacity": { "value": 1250, "unit": "L/s" } },
+          "combined": { "capacity": { "value": 5550, "unit": "L/s", "equivalentMGD": 487 } }
+        },
+        "waterSources": {
+          "canals": 65,
+          "wells": 35,
+          "unit": "%"
+        },
+        "potableWaterSystems": 26
+      },
+      "operationalDetails": "Treatment steps include screening, presedimentation, chemical dosing (aluminum sulfate, polymers, chlorine), coagulation, flocculation, sedimentation, filtration, disinfection, storage and pumping. Wastewater infrastructure includes 35 pumping stations and several treatment plants (capacities not publicly specified).",
+      "regulatoryContext": "Drinking water must meet NOM‑127‑SSA1‑1994; wastewater discharges must meet NOM‑001‑ECOL‑1996. Mexican authorities oversee compliance; public reports are limited.",
+      "performanceTrends": "Demand peaks during summer. Sedimentation basins are periodically drained for maintenance. Canal water quality varies with Colorado River flows.",
+      "waterQualityIndicators": {
+        "description": "No detailed public water quality tables; typical Colorado River water has TDS ~700 mg/L, hardness ~250 mg/L and nitrate ~2 mg/L.",
+        "parameters": {
+          "TDS": { "value": 700, "unit": "mg/L", "source": "Colorado River estimate" },
+          "hardness": { "value": 250, "unit": "mg/L", "source": "Colorado River estimate" },
+          "nitrate": { "value": 2, "unit": "mg/L", "source": "Colorado River estimate" }
+        }
+      },
+      "energyUsage": "Energy consumption is high due to continuous pumping and filtration. Chemical use includes coagulants and chlorine.",
+      "monitoringMethods": "On‑site laboratories measure turbidity, pH, residual chlorine and occasionally metals. Wastewater treatment performance is monitored but data are not published.",
+      "treatmentTechnologies": "Conventional coagulation, flocculation, sedimentation, filtration and disinfection; potential upgrades include membrane filtration and advanced oxidation for reuse.",
+      "challenges": [
+        "High salinity and hardness from Colorado River water",
+        "Aging infrastructure",
+        "Limited wastewater treatment capacity leading to canal contamination"
+      ],
+      "opportunities": [
+        "Implementing desalination",
+        "Expanding potable reuse",
+        "Improving wastewater treatment to protect the New River and Salton Sea"
+      ],
+      "dataSources": "CESPM infrastructure website. Specific wastewater plant capacities and water quality data are not publicly available."
+    },
+    "microplastics": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "gauge",
+      "locationContext": "Mexicali's canals and drains carry urban and agricultural runoff to the Hardy River and the Salton Sea. Plastic waste from agricultural activities and urban litter may contribute to microplastics.",
+      "systemOverview": "No studies have measured microplastics in Mexicali's drinking water or canals. Regional research in urban rivers and stormwater provides comparative context.",
+      "concentrationProfile": {
+        "description": "Without specific data, microplastic concentrations are unknown. Urban river studies in Southern California show surface water concentrations of 0.05–16 particles/m³ and Tijuana stormwater concentrations of 66–191 particles/L.",
+        "dataAvailable": false,
+        "comparativeData": {
+          "LARiver": { "range": { "min": 0.05, "max": 16 }, "unit": "particles/m³" },
+          "TijuanaStormwater": { "range": { "min": 66, "max": 191 }, "unit": "particles/L" }
+        }
+      },
+      "operationalDetails": "Potable water plants rely on conventional filtration which may remove some microplastics. Wastewater plants lack advanced microplastic removal.",
+      "regulatoryContext": "No Mexican standards for microplastics; California's emerging regulations may influence future policy.",
+      "performanceTrends": "Not available.",
+      "waterQualityIndicators": "Co‑occurring parameters such as total suspended solids and turbidity are monitored but microplastics are not.",
+      "energyUsage": "Implementation of microplastic removal would raise energy requirements.",
+      "monitoringMethods": "Standard techniques (filtration and FTIR) would be required; not currently applied.",
+      "treatmentTechnologies": "Potential technologies include advanced filtration, cloth media filters and green infrastructure to reduce plastic litter.",
+      "challenges": [
+        "Lack of data",
+        "High litter generation",
+        "Open canals that collect waste"
+      ],
+      "opportunities": [
+        "Public education on plastic reduction",
+        "Collaboration with research institutions to establish baseline microplastic levels"
+      ],
+      "dataSources": "No Mexicali‑specific data; comparative values from other regional studies."
+    },
+    "waterContamination": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "bar",
+      "locationContext": "Mexicali's supply from the Colorado River and local wells is prone to salinity and contamination from agricultural runoff, industrial discharges and urban wastewater.",
+      "systemOverview": "Key contaminants include high total dissolved solids, hardness, nitrates, pesticides (e.g., DDT residues), selenium and pathogens. The New River, which flows from Mexicali to the Salton Sea, is one of the most polluted waterways in North America.",
+      "contaminantProfile": {
+        "description": "No comprehensive data are published for the city's drinking water. Typical Colorado River water contains TDS ~700 mg/L and nitrate ~2 mg/L. Agricultural drains often carry pesticides and salinity exceeding 2 000 mg/L.",
+        "parameters": {
+          "TDS": { "typical": 700, "agriculturalDrains": ">2000", "unit": "mg/L" },
+          "nitrate": { "typical": 2, "unit": "mg/L" },
+          "contaminants": ["pesticides", "DDT residues", "selenium", "pathogens"]
+        }
+      },
+      "operationalDetails": "Water treatment focuses on removing particulates and disinfecting; it does not desalinate. Wastewater treatment plants may be undersized, leading to discharge of untreated sewage into drains.",
+      "regulatoryContext": "Water quality must meet NOM‑127; effluent must meet NOM‑001. The U.S. Environmental Protection Agency monitors New River water quality downstream of the border.",
+      "performanceTrends": "Salinity and pesticide loads vary with irrigation cycles; nitrate tends to increase during fertilizer application seasons.",
+      "waterQualityIndicators": "Important parameters include TDS, hardness, nitrate, arsenic, selenium and organochlorine pesticides. No specific values are publicly available.",
+      "energyUsage": "Salinity removal would require energy‑intensive desalination; current operations rely on conventional treatment.",
+      "monitoringMethods": "CESPM conducts routine monitoring for turbidity and chlorine; external agencies monitor the New River for pollutants including fecal coliforms and toxic chemicals.",
+      "treatmentTechnologies": "Potential improvements include desalination, ion exchange, constructed wetlands and advanced wastewater treatment to reduce pollution entering the New River.",
+      "challenges": [
+        "Chronic salinity and pollutant loads challenge water supply and aquatic ecosystems",
+        "Lack of funding for upgrades",
+        "Cross‑border water quality conflicts"
+      ],
+      "opportunities": [
+        "Desalination projects",
+        "Water reuse",
+        "Agricultural best management practices",
+        "Binational collaboration"
+      ],
+      "dataSources": "CESPM infrastructure description; general knowledge of Colorado River water chemistry. Absence of detailed publicly available contaminant data limits analysis."
+    },
+    "waterQuality": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "line",
+      "locationContext": "Mexicali's distribution system serves the city and valley; water comes from the Colorado River and groundwater.",
+      "systemOverview": "Quality is influenced by high salinity, hardness and potential contaminants from agriculture and industry.",
+      "qualityProfile": {
+        "description": "No published data for key parameters; typical Colorado River water TDS ~700 mg/L, hardness ~250 mg/L, nitrate ~2 mg/L. Groundwater may have higher salinity and arsenic.",
+        "parameters": {
+          "TDS": { "value": 700, "unit": "mg/L", "source": "Colorado River estimate" },
+          "hardness": { "value": 250, "unit": "mg/L", "source": "Colorado River estimate" },
+          "nitrate": { "value": 2, "unit": "mg/L", "source": "Colorado River estimate" },
+          "arsenic": { "note": "Groundwater may have higher levels" }
+        }
+      },
+      "operationalDetails": "Operators disinfect and adjust pH but cannot remove dissolved salts. Wells are blended with canal water.",
+      "regulatoryContext": "Must meet NOM‑127 standards; compliance data are not publicly released.",
+      "performanceTrends": "Salinity and nitrate may vary with seasonal irrigation and Colorado River conditions.",
+      "waterQualityIndicators": "Important indicators include TDS, hardness, nitrate, sulfate, chloride, arsenic and fluoride; without published values, assumptions are based on regional water composition.",
+      "energyUsage": "Energy used for pumping and chlorination; desalination would require significant additional energy.",
+      "monitoringMethods": "Routine monitoring for chlorine residual and bacterial indicators; limited testing for metals and organics.",
+      "treatmentTechnologies": "Conventional treatment; possible future desalination or advanced filtration.",
+      "challenges": [
+        "High salinity reduces water palatability and can harm agriculture",
+        "Potential contamination from industrial waste and pesticides"
+      ],
+      "opportunities": [
+        "Desalination",
+        "Water reuse",
+        "Improved wastewater treatment",
+        "Data transparency to inform management"
+      ],
+      "dataSources": "CESPM infrastructure description; general Colorado River water data. Lack of published water quality results."
+    }
+  }
+}

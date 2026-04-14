@@ -1,0 +1,183 @@
+{
+  "city": "Tijuana",
+  "state": "Baja California",
+  "country": "Mexico",
+  "coordinates": {
+    "latitude": 32.5149,
+    "longitude": -117.0382
+  },
+  "populationServed": 1800000,
+  "dateCollected": "2025-11-27",
+  "lastUpdated": "2025-11-27",
+  "responsibleOrganization": "Comisión Estatal de Servicios Públicos de Tijuana (CESPT)",
+  "contactInfo": "https://www.cespt.gob.mx",
+  "budgetUSD": null,
+  "imageURLs": [],
+  "topics": {
+    "waterFacilities": {
+      "complianceStatus": "non-compliant",
+      "recommendedGraph": "gauge",
+      "locationContext": "Tijuana, Baja California, Mexico, lies along the U.S.–Mexico border and relies on imported Colorado River water via the Colorado River–Tijuana aqueduct and local groundwater. Wastewater treatment infrastructure serves the growing metropolitan area and cross‑border region.",
+      "systemOverview": "The Comisión Estatal de Servicios Públicos de Tijuana (CESPT) operates several wastewater treatment plants. Major facilities include San Antonio de los Buenos (SAB), the International Wastewater Treatment Plant (PITAR), La Morita and Arturo Herrera plants.",
+      "capacityProfile": {
+        "description": "San Antonio de los Buenos is an aerated lagoon system originally designed for 750 L/s (~17 MGD) and expanded to 1 100 L/s (~25 MGD). Due to lack of maintenance, most aerators are non‑operational and the plant provides little treatment. A proposed upgrade would replace lagoons with oxidation ditch modules totaling 27.4–41 MGD.",
+        "facilities": {
+          "SAB": {
+            "designed": { "value": 750, "unit": "L/s", "equivalentMGD": 17 },
+            "current": { "value": 1100, "unit": "L/s", "equivalentMGD": 25 },
+            "proposed": { "min": 27.4, "max": 41, "unit": "MGD" }
+          },
+          "PITAR": { "capacity": { "value": 1100, "unit": "L/s", "equivalentMGD": 25 } },
+          "La_Morita": { "capacity": { "value": 254, "unit": "L/s", "equivalentMGD": 5.8 } },
+          "Arturo_Herrera": { "capacity": { "value": 460, "unit": "L/s", "equivalentMGD": 10.5 } }
+        }
+      },
+      "operationalDetails": "SAB uses aerated lagoons but is in disrepair; effluent is often minimally treated before discharge to the Pacific Ocean. PITAR and other plants use activated sludge and tertiary treatment to produce reclaimed water. Management is challenged by rapid population growth and funding shortages.",
+      "regulatoryContext": "Wastewater discharge is regulated under Mexico's NOM‑001‑ECOL‑1996, which sets effluent limits for BOD, TSS, nitrogen and coliforms. Cross‑border discharges are monitored by the U.S. International Boundary and Water Commission (IBWC).",
+      "performanceTrends": "Flows vary seasonally; during rainy seasons, pumping stations and treatment plants are overwhelmed, leading to bypasses and transboundary spills.",
+      "waterQualityIndicators": {
+        "description": "Effluent quality from SAB often fails to meet standards due to insufficient aeration. Proposed upgrades aim to meet BOD ≤75 mg/L and TSS ≤75 mg/L limits specified in NOM‑001 (monthly average).",
+        "parameters": {
+          "BOD": { "target": 75, "unit": "mg/L", "meetsStandards": false },
+          "TSS": { "target": 75, "unit": "mg/L", "meetsStandards": false }
+        }
+      },
+      "energyUsage": "Existing plants use electrical aerators and pumps; energy use is high when equipment is functional. Upgraded oxidation ditches would require efficient blowers and clarifiers.",
+      "monitoringMethods": "Monitoring includes flow measurement and sampling for BOD, TSS, nutrients and coliforms. Data reporting is limited; cross‑border monitoring programs collect samples downstream.",
+      "treatmentTechnologies": "Proposed replacement of aerated lagoons with oxidation ditches, secondary clarifiers and disinfection to meet effluent standards. Other plants utilize activated sludge and tertiary filtration.",
+      "challenges": [
+        "Underfunding",
+        "Equipment failure",
+        "Rapid population growth",
+        "Untreated sewage discharges",
+        "Transboundary spills pollute beaches in Imperial Beach, California"
+      ],
+      "opportunities": [
+        "U.S.–Mexico cooperation and financing",
+        "SAB rehabilitation and capacity expansion",
+        "Adoption of potable reuse"
+      ],
+      "dataSources": "EPA feasibility analysis of SAB upgrade; NADBank certification document listing plant capacities. Limited public data on performance and effluent quality."
+    },
+    "microplastics": {
+      "complianceStatus": "non-compliant",
+      "recommendedGraph": "gauge",
+      "locationContext": "Tijuana's urban runoff drains into the Tijuana River, which flows through the U.S.–Mexico border into the Pacific Ocean. Industrial, domestic and stormwater sources contribute microplastics.",
+      "systemOverview": "Limited data exist on microplastics in Tijuana's drinking water and wastewater. A regional study investigated microplastic concentrations in street runoff.",
+      "concentrationProfile": {
+        "description": "Stormwater runoff samples from Tijuana contained 66–191 particles per litre, higher than values reported for Calgary and other cities. Polymer types were dominated by polyethylene, polypropylene and polystyrene (not explicitly quantified).",
+        "stormwaterRunoff": {
+          "range": { "min": 66, "max": 191 },
+          "unit": "particles/L",
+          "polymerTypes": ["polyethylene", "polypropylene", "polystyrene"]
+        },
+        "comparisonLARiver": {
+          "range": { "min": 0.05, "max": 16 },
+          "unit": "particles/m³"
+        }
+      },
+      "operationalDetails": "No routine microplastic monitoring is undertaken by CESPT. Stormwater conveys plastic litter from streets and informal waste disposal sites; wastewater treatment may remove some particles but discharges also contain microplastics.",
+      "regulatoryContext": "There is no Mexican regulation for microplastics in drinking water or effluent. California's monitoring requirements influence cross‑border discussions.",
+      "performanceTrends": "Microplastic loads increase during storm events and may decrease during dry weather; no published time‑series.",
+      "waterQualityIndicators": "Microplastic abundance in Tijuana street runoff far exceeds typical urban river concentrations (0.05–16 particles/m³ in Los Angeles River).",
+      "energyUsage": "Advanced removal technologies (e.g., membrane filtration) are not installed; energy use remains at baseline for standard wastewater treatment.",
+      "monitoringMethods": "Sampling in the referenced study used filtration and microscopy to count particles in runoff; polymer identification relied on FTIR spectroscopy.",
+      "treatmentTechnologies": "Potential technologies include improved street sweeping, installation of trash capture devices, upgrades to secondary and tertiary treatment, and cross‑border waste management programs.",
+      "challenges": [
+        "High plastic waste generation",
+        "Lack of stormwater infrastructure",
+        "Informal settlements contribute to microplastic pollution"
+      ],
+      "opportunities": [
+        "Coordinated waste management campaigns",
+        "Investment in stormwater treatment",
+        "Public education on reducing single‑use plastics"
+      ],
+      "dataSources": "Frontiers in Environmental Science study on stormwater microplastics. Absence of systematic monitoring for microplastics in drinking water or effluent."
+    },
+    "waterContamination": {
+      "complianceStatus": "non-compliant",
+      "recommendedGraph": "bar",
+      "locationContext": "The Tijuana River basin spans Mexico and the United States; wastewater and stormwater flows cross the border and affect coastal waters.",
+      "systemOverview": "Contamination arises from untreated sewage, industrial effluent, urban runoff and solid waste. Pollutants include high BOD, suspended solids, nutrients, pathogens, metals and emerging contaminants.",
+      "contaminantProfile": {
+        "description": "SAB's failure means that BOD and TSS in effluent often exceed nominal limits; proposed standards target BOD ≤75 mg/L and TSS ≤75 mg/L on a monthly average. Nitrate, phosphorus, and ammonia concentrations are not publicly reported; coliform counts may exceed 10⁶ CFU/100 mL during spills.",
+        "parameters": {
+          "BOD": {
+            "current": ">150",
+            "target": 75,
+            "unit": "mg/L",
+            "exceedsLimit": true
+          },
+          "TSS": {
+            "current": ">150",
+            "target": 75,
+            "unit": "mg/L",
+            "exceedsLimit": true
+          },
+          "fecalColiforms": {
+            "duringSpills": ">1000000",
+            "unit": "CFU/100mL"
+          }
+        }
+      },
+      "operationalDetails": "CESPT operates pumping stations and wastewater plants but lacks resources for maintenance. Cross‑border agencies periodically pump sewage to U.S. facilities during major spills.",
+      "regulatoryContext": "Discharges are subject to NOM‑001‑ECOL‑1996 and binational agreements under the U.S.–Mexico Water Treaty. Non‑compliance results in political pressure rather than immediate fines.",
+      "performanceTrends": "Dry weather flows may be partially treated, but during storms, pump stations overflow and untreated sewage enters the river. Pollution levels spike during rainy season and decline somewhat during dry season.",
+      "waterQualityIndicators": "Indicators include high BOD and TSS (>150 mg/L), elevated fecal coliforms (>10⁶ NMP/100 mL) and ammonia. Beaches near the border are frequently closed due to exceedances.",
+      "energyUsage": "Energy use is high for pumping stations but variable due to intermittent operation. Frequent equipment failures limit continuous treatment.",
+      "monitoringMethods": "Limited; IBWC and U.S. agencies monitor bacteria and nutrient levels downstream. CESPT monitors effluent irregularly due to resource constraints.",
+      "treatmentTechnologies": "Proposed upgrade to oxidation ditch at SAB, expansion of capacity at existing plants, installation of solids removal screens, and cross‑border conveyance of sewage to the South Bay International Wastewater Treatment Plant.",
+      "challenges": [
+        "Chronic underinvestment leads to sewage spills",
+        "Rapid urban growth",
+        "Contamination impacts public health and tourism",
+        "Cross‑border politics complicate solutions"
+      ],
+      "opportunities": [
+        "Binational funding for SAB rehabilitation",
+        "Adoption of water reuse to reduce discharges",
+        "Community education campaigns"
+      ],
+      "dataSources": "EPA feasibility study for SAB; NOM‑001 effluent standards. Lack of detailed, recent monitoring data."
+    },
+    "waterQuality": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "line",
+      "locationContext": "Drinking water for Tijuana is drawn from the Colorado River via aqueduct and local wells; distribution covers the metropolitan area and nearby communities.",
+      "systemOverview": "Water quality is generally safe but variable due to aging infrastructure and blending of sources. Public information on chemical parameters is limited.",
+      "qualityProfile": {
+        "description": "NADBank's certification document notes that 99.63% of Tijuana's population has water service and 91.12% has wastewater service. No citywide water quality table is publicly available. Data from adjacent U.S. agencies indicate that imported Colorado River water contains TDS ~700 mg/L, hardness ~250 mg/L and nitrate ~2 mg/L.",
+        "coverage": {
+          "waterService": 99.63,
+          "wastewaterService": 91.12,
+          "unit": "%"
+        },
+        "parameters": {
+          "TDS": { "value": 700, "unit": "mg/L", "source": "Colorado River estimate" },
+          "hardness": { "value": 250, "unit": "mg/L", "source": "Colorado River estimate" },
+          "nitrate": { "value": 2, "unit": "mg/L", "source": "Colorado River estimate" },
+          "chlorineResidual": { "range": { "min": 0.5, "max": 1.0 }, "unit": "mg/L" }
+        }
+      },
+      "operationalDetails": "CESPT blends imported water with local groundwater; disinfects with chlorine; and manages storage tanks and pressure zones. Infrastructure issues lead to intermittent outages and potential contamination.",
+      "regulatoryContext": "Water quality must meet Mexico's NOM‑127‑SSA1‑1994 standards for drinking water. Reports are submitted to health authorities but rarely published.",
+      "performanceTrends": "Water quality may fluctuate with changes in Colorado River chemistry, seasonal demand and maintenance schedules.",
+      "waterQualityIndicators": "General indicators include TDS ~700 mg/L, hardness ~250 mg/L, chloride and sulfate levels typical of Colorado River water, and residual chlorine 0.5–1.0 mg/L.",
+      "energyUsage": "Pumping water up from the aqueduct requires significant energy; additional pumping is needed to supply hillside neighborhoods.",
+      "monitoringMethods": "CESPT conducts routine analyses for coliform bacteria, chlorine residual, TDS and major ions. There is limited monitoring for metals and organics.",
+      "treatmentTechnologies": "Conventional chlorination; potential adoption of desalination or advanced treatment in future.",
+      "challenges": [
+        "Intermittent supply and pressure fluctuations can lead to backflow and contamination",
+        "Limited investment in infrastructure",
+        "Cross‑border sewage contamination affects recreational waters"
+      ],
+      "opportunities": [
+        "Expansion of potable reuse",
+        "Reduction of distribution losses",
+        "Improved public reporting of water quality"
+      ],
+      "dataSources": "NADBank document listing service coverage and plant capacities; general knowledge of Colorado River water chemistry. Lack of published water quality data is a major limitation."
+    }
+  }
+}

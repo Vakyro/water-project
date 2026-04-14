@@ -1,0 +1,116 @@
+{
+  "city": "San Diego",
+  "state": "California",
+  "country": "USA",
+  "coordinates": {
+    "latitude": 32.7157,
+    "longitude": -117.1611
+  },
+  "populationServed": 1400000,
+  "dateCollected": "2025-11-27",
+  "lastUpdated": "2025-11-27",
+  "responsibleOrganization": "City of San Diego Public Utilities Department",
+  "contactInfo": "https://www.sandiego.gov/public-utilities",
+  "budgetUSD": null,
+  "imageURLs": [],
+  "topics": {
+    "waterFacilities": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "gauge",
+      "locationContext": "San Diego, California, is a coastal city relying on imported Colorado River and State Project water, local reservoirs and recycled water. Major water and wastewater facilities are located in the city and surrounding region.",
+      "systemOverview": "The City of San Diego operates the Alvarado, Miramar and Otay water treatment plants for potable water, the Point Loma Wastewater Treatment Plant for regional wastewater, and the North City and South Bay Water Reclamation Plants for recycled water. The Pure Water program will add advanced water purification facilities.",
+      "operationalDetails": "Point Loma uses chemically enhanced primary treatment, removing ~65 % of biochemical oxygen demand and ~88 % of suspended solids, and discharges via a 4.5‑mile ocean outfall. North City and South Bay plants perform secondary and tertiary treatment, producing disinfected recycled water for irrigation and industry. Pure Water facilities will employ ozonation, biological activated carbon, microfiltration, reverse osmosis and UV‑advanced oxidation.",
+      "regulatoryContext": "Discharges are regulated under the City’s ocean discharge permit; the Point Loma plant operates under a modified waiver of secondary treatment requirements. Reclaimed water must meet California Title 22 recycled water standards. Pure Water operations will produce water for augmentation of reservoirs, subject to Division of Drinking Water regulations.",
+      "performanceTrends": "Point Loma influent flows vary seasonally with rainfall; advanced primary treatment consistently removes a majority of solids. North City and South Bay plants adjust production based on recycled water demand.",
+      "waterQualityIndicators": "Point Loma effluent meets BOD and TSS limits. Alvarado, Miramar and Otay drinking water plants produce finished water with pH around 8.3 (range 7.28–8.68) and maintain chloramine residuals around 1.7 ppm. Nitrate levels are ND–0.4 ppm.",
+      "energyUsage": "Wastewater treatment and advanced purification are energy‑intensive; Pure Water facilities will incorporate energy recovery and renewable power where possible.",
+      "monitoringMethods": "Continuous monitoring of flow, BOD, TSS, turbidity and disinfectant residual; regular sampling for nutrients, metals and organics. Advanced purification includes online monitoring for membrane integrity and UV dose.",
+      "treatmentTechnologies": "Chemically enhanced primary clarification, trickling filters, activated sludge, microfiltration, reverse osmosis and UV advanced oxidation are key technologies. Recycled water is disinfected with chlorine or chloramines.",
+      "challenges": [
+        "Securing funding and public acceptance for potable reuse, managing ocean discharge with waiver renewal, addressing nutrient discharges and potential microplastics."
+      ],
+      "opportunities": [
+        "Pure Water program will diversify supply and reduce ocean discharges. Expansion of water reuse and stormwater capture will enhance resilience."
+      ],
+      "dataSources": "Point Loma and South Bay facility descriptions; Pure Water program documents; San Diego water quality report for pH and disinfectant residuals.",
+      "capacityProfile": {
+        "description": "Point Loma Wastewater Treatment Plant has a design capacity of 240 MGD and treats ~175 MGD using advanced primary treatment. The North City Water Reclamation Plant is currently rated at 30 MGD and will be expanded to 42 MGD; the new North City Pure Water Facility will produce up to 34 MGD of purified water. Phase 1 of Pure Water aims to deliver 30 MGD by 2025 and the full program will provide 83 MGD of potable reuse by 2035. The South Bay Water Reclamation Plant has a maximum capacity of 15 MGD and produces tertiary recycled water."
+      }
+    },
+    "microplastics": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "gauge",
+      "locationContext": "San Diego’s coastal and estuarine waters receive runoff from the Tijuana River, San Diego River and urban storm drains. Microplastics from urban areas and cross‑border pollution affect local waterways.",
+      "systemOverview": "No comprehensive microplastic monitoring has been published for San Diego drinking water as of 2025. Scientific studies report microplastic contamination in stormwater and estuarine environments of the broader region.",
+      "operationalDetails": "San Diego’s stormwater program includes trash capture devices, street sweeping and low‑impact development to reduce plastic litter. Pure Water’s advanced treatment trains (microfiltration and reverse osmosis) are expected to remove microplastics effectively.",
+      "regulatoryContext": "California’s microplastics testing requirements apply to drinking water sources statewide but results for San Diego have not been reported. There are no numeric standards for microplastics in wastewater or stormwater.",
+      "performanceTrends": "No local time‑series data; microplastic loads likely peak during storm events and cross‑border sewage spills.",
+      "waterQualityIndicators": "Not applicable for microplastic data; however, co‑occurring parameters such as turbidity and total suspended solids are monitored.",
+      "energyUsage": "Advanced treatment to remove microplastics increases energy use (e.g., high‑pressure pumps for reverse osmosis).",
+      "monitoringMethods": "Potential methods include net sampling of stormwater, bulk water filtration and spectroscopic identification. Studies in Los Angeles used micro‑FTIR and laser direct infrared spectroscopy.",
+      "treatmentTechnologies": "Microfiltration, reverse osmosis and advanced oxidation in the Pure Water program will remove microplastics. Trash capture devices and green infrastructure reduce plastic entry into waterways.",
+      "challenges": [
+        "Cross‑border flows from Tijuana deliver trash and microplastics",
+        "lack of baseline data",
+        "microplastics may accumulate in estuarine sediments and biota."
+      ],
+      "opportunities": [
+        "Expanding monitoring programs, promoting single‑use plastic bans, and integrating microplastic removal into stormwater and wastewater upgrades."
+      ],
+      "dataSources": "Stormwater microplastic concentration study in Tijuana; Los Angeles River microplastics study used for comparison. No direct data for San Diego drinking water.",
+      "concentrationProfile": {
+        "description": "An environmental study of stormwater in Tijuana reported concentrations of 66–191 particles/L, higher than values reported for Calgary and other cities. These values indicate potential microplastic loads in regional runoff entering San Diego Bay. Microplastic concentrations in Los Angeles River surface water averaged 8.9 particles/m³ (≈0.009 particles/L), illustrating that highly urbanized watersheds can have diverse levels."
+      }
+    },
+    "waterContamination": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "bar",
+      "locationContext": "San Diego relies on imported and local surface water sources that can be affected by runoff from agriculture, urban areas and cross‑border pollution.",
+      "systemOverview": "Contaminants of concern include nitrates, disinfection byproducts, heavy metals, pathogens and emerging contaminants. Cross‑border sewage spills have caused viral and bacterial contamination in the Tijuana River estuary.",
+      "operationalDetails": "Treatment plants perform coagulation, filtration and disinfection; water is chloraminated before distribution. Cross‑border contamination events trigger beach closures and increased microbial monitoring.",
+      "regulatoryContext": "Drinking water is regulated under U.S. EPA standards; disinfection byproducts must stay below 80 µg/L for TTHMs and 60 µg/L for HAA5. Water supply agencies coordinate with the International Boundary and Water Commission regarding transboundary pollution.",
+      "performanceTrends": "Trihalomethane and haloacetic acid levels rise during warmer months when organic matter is higher; nitrate remains low due to source control. Sewage spills cause episodic spikes in bacterial indicators.",
+      "waterQualityIndicators": "pH averages around 8.3 (range 7.28–8.68) across treatment plants. Turbidity is maintained below 0.3 NTU; hardness and TDS vary by source.",
+      "energyUsage": "Treatment processes consume chemicals and electricity; cross‑border emergency pumping events increase operational costs.",
+      "monitoringMethods": "Routine sampling of nitrates, nitrites, metals, organics, disinfection byproducts and coliform bacteria. Real‑time monitors track turbidity and chlorine; cross‑border flows monitored by IBWC.",
+      "treatmentTechnologies": "Coagulation, sedimentation, filtration, chloramination and upcoming advanced purification; coastal wetland restoration may mitigate contamination.",
+      "challenges": [
+        "Aging infrastructure, cross‑border sewage spills, wildfire‑driven sediment pulses, and emerging contaminants such as PFAS and microplastics."
+      ],
+      "opportunities": [
+        "Pure Water program will reduce reliance on imported supplies and increase water security. Enhanced border infrastructure and international cooperation can reduce sewage spills."
+      ],
+      "dataSources": "San Diego 2024 drinking water quality report; Metro JPA description of Point Loma plant; cross‑border contamination reported by environmental agencies (data limited).",
+      "contaminantProfile": {
+        "description": "The 2024 drinking water report showed nitrate (as nitrogen) levels ND–0.4 ppm, far below the 10 ppm MCL. Total trihalomethanes had a locational running annual average (LRAA) of 49 ppb (range 8.2–64.1 ppb) and haloacetic acids LRAA of 15 ppb (ND–23.7 ppb). Chloramine residual across ~7 467 samples averaged 1.73 ppm with a maximum of 3.80 ppm."
+      }
+    },
+    "waterQuality": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "line",
+      "locationContext": "The city’s distribution system delivers water to ~1.4 million residents; water sources include Alvarado, Miramar and Otay treatment plants and purchased water.",
+      "systemOverview": "Water quality is monitored for regulated contaminants; results are reported in the annual consumer confidence report.",
+      "operationalDetails": "Operators adjust coagulant doses, pH and disinfectant residuals to maintain compliance. Distribution mains are flushed regularly to control nitrification and biofilm.",
+      "regulatoryContext": "Water quality meets all federal and state standards; UCMR 5 sampling includes PFAS and lithium.",
+      "performanceTrends": "Disinfection byproducts show seasonal variation; nitrates remain low; pH and residual disinfectant remain stable across months.",
+      "waterQualityIndicators": "Parameters monitored include turbidity (<0.1–0.3 NTU), total dissolved solids (~500–700 mg/L depending on source), hardness (~250 mg/L as CaCO₃), fluoride (added to reach 0.7 mg/L), copper and lead (90th percentile values below action levels).",
+      "energyUsage": "Energy use associated with pumping imported water and operating treatment plants; chemical consumption includes alum, polymer, ammonia and chlorine.",
+      "monitoringMethods": "Online sensors for pH, turbidity and disinfectant; laboratory analysis for metals, organics, radiologicals and unregulated compounds.",
+      "treatmentTechnologies": "Coagulation/flocculation, sedimentation, filtration, disinfection and chloramination; upcoming microfiltration, reverse osmosis and UV advanced oxidation in the Pure Water facilities.",
+      "challenges": [
+        "Balancing corrosion control with disinfectant residual",
+        "controlling nitrification",
+        "variable source water quality due to wildfire debris or algae."
+      ],
+      "opportunities": [
+        "Adoption of advanced treatment for potable reuse",
+        "increased stormwater capture",
+        "monitoring for microplastics and PFAS."
+      ],
+      "dataSources": "City of San Diego 2024 drinking water quality report.",
+      "qualityProfile": {
+        "description": "pH values averaged 8.30 (range 7.70–8.68) at the Alvarado plant, 8.31 (7.55–8.68) at Miramar, 8.12 (7.28–8.55) at Otay and 8.33 (7.50–8.76) for purchased water. Nitrate levels were ND–0.4 ppm. LRAA for total trihalomethanes was 49 ppb and haloacetic acids 15 ppb. Chloramine residual averaged 1.73 ppm."
+      }
+    }
+  }
+}

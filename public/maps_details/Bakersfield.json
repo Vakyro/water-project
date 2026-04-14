@@ -1,0 +1,116 @@
+{
+  "city": "Bakersfield",
+  "state": "California",
+  "country": "USA",
+  "coordinates": {
+    "latitude": 35.3733,
+    "longitude": -119.0187
+  },
+  "populationServed": 400000,
+  "dateCollected": "2025-11-27",
+  "lastUpdated": "2025-11-27",
+  "responsibleOrganization": "City of Bakersfield Water Resources Department / Cal Water",
+  "contactInfo": "https://www.bakersfieldcity.us; https://www.calwater.com",
+  "budgetUSD": null,
+  "imageURLs": [],
+  "topics": {
+    "waterFacilities": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "gauge",
+      "locationContext": "Bakersfield, California, located in the southern San Joaquin Valley along the Kern River; facilities serve a growing urban population and surrounding agricultural areas.",
+      "systemOverview": "City-operated wastewater treatment plants (WWTPs) treat municipal wastewater and some industrial discharges. Major facilities include Wastewater Treatment Plant No. 2 and No. 3. Drinking water is supplied by local groundwater wells and the Kern River, with treatment using membrane filtration and purchased water.",
+      "operationalDetails": "WWTPs use activated‑sludge treatment, tertiary filtration and disinfection; methane is captured (~265 k ft³/day at Plant 3). Staffing includes operators, electricians, mechanics, laboratory technicians and supervisors. Drinking water treatment includes membrane filtration, chlorination and blending; operations by California Water Service (Cal Water).",
+      "regulatoryContext": "Facilities operate under California Regional Water Quality Control Board permits. Drinking water meets U.S. EPA and California primary/secondary standards. WWTPs must meet effluent limits for BOD, TSS and nutrients.",
+      "performanceTrends": "Plant 3 shows average daily flow 17.3 MGD and biosolids processed ~260 tons/month with stable BOD removal. Plant 2 processes ~220 tons/month and produces ~130 k ft³/day methane.",
+      "waterQualityIndicators": "Effluent BOD 9.5 mg/L, suspended solids 9.3 mg/L at Plant 3; influent BOD ~335 mg/L and SS ~308 mg/L. Drinking water pH ranges 6.2–9.5 (groundwater) and 7.0–7.9 (surface water); haloacetic acids LRAA 40 ppb; trihalomethanes LRAA 42 ppb.",
+      "energyUsage": "Anaerobic digesters produce methane used for onsite power and heat; capturing ~130–265 k ft³/day of biogas. Energy consumption is moderate due to pumps, aeration and membrane filtration; solar and cogeneration potential.",
+      "monitoringMethods": "WWTPs monitor influent/effluent flow, BOD, TSS, nutrients and coliforms daily; on‑site laboratories perform standard methods. Drinking water is tested for 188 constituents with >51 000 analyses per year.",
+      "treatmentTechnologies": "Activated‑sludge biological treatment, tertiary filtration, chlorination, sludge digestion and methane recovery. Drinking water uses membrane filtration, granular media filtration, disinfection, and blending.",
+      "challenges": [
+        "Aging infrastructure, high influent loads from population growth, salinity and nutrient management, groundwater contamination from agriculture. Drought reduces surface supply, increasing reliance on groundwater."
+      ],
+      "opportunities": [
+        "Expanding reuse of reclaimed water for agriculture and recharge",
+        "upgrading facilities to advanced nutrient removal",
+        "incorporating renewable energy and energy recovery."
+      ],
+      "dataSources": "City of Bakersfield WWTP statistics tables; Cal Water Consumer Confidence Report 2023. Data limited to city reports; microplastics and some contaminants not routinely monitored.",
+      "capacityProfile": {
+        "description": "WWTP No. 2 has a design capacity of about 25 MGD with average daily flow ~13.7 MGD; WWTP No. 3 is designed for 32 MGD and treats ~17.3 MGD. Plant No. 3 effluent BOD ≈9.5 mg/L and suspended solids ≈9.3 mg/L; influent BOD ≈335 mg/L and suspended solids ≈308 mg/L. Drinking water production ~57 wells and surface water supplies ~57% of demand."
+      }
+    },
+    "microplastics": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "gauge",
+      "locationContext": "Bakersfield lies along the Kern River; stormwater eventually drains to the San Joaquin River and Sacramento–San Joaquin Delta.",
+      "systemOverview": "Microplastics in drinking water and wastewater are an emerging concern in California. The state adopted the world’s first testing program for microplastics in drinking water in 2022, but Bakersfield’s utilities have not yet reported microplastic concentrations.",
+      "operationalDetails": "Cal Water and city utilities monitor for microplastics following California’s provisional analytical methods (micro‑FTIR/LDIR). Sampling frequency and volumes will be defined by the State Water Resources Control Board.",
+      "regulatoryContext": "California Senate Bill 1422 requires monitoring of microplastics in drinking water. The State Water Board adopted uniform testing methods and a four‑year monitoring plan.",
+      "performanceTrends": "Data collection began statewide in 2023–2024; no monthly trends have been published for Bakersfield.",
+      "waterQualityIndicators": "In absence of microplastic data, relevant co‑occurring contaminants include trihalomethanes (42 ppb), haloacetic acids (40 ppb), and PFAS (most results nondetect to <8.9 ppt).",
+      "energyUsage": "Advanced microplastics monitoring requires spectroscopic instrumentation and increased laboratory energy use; no specific resource data.",
+      "monitoringMethods": "California’s provisional Method 2020‐01 uses filtration, peroxide digestion, Nile Red staining and micro‑FTIR/LDIR spectroscopy to count and identify particles; blanks and QA/QC ensure data quality.",
+      "treatmentTechnologies": "Emerging technologies to reduce microplastics include membrane filtration, granular media filtration and advanced oxidation used in drinking water plants; in wastewater, tertiary filters and cloth media can capture microplastics.",
+      "challenges": [
+        "Lack of baseline data, potential for microplastics to enter drinking water through aging pipes and plastic sources, and unknown health effects."
+      ],
+      "opportunities": [
+        "Statewide monitoring will establish baseline data",
+        "innovation in biofiltration and advanced membranes may remove microplastics",
+        "public awareness can reduce plastic litter."
+      ],
+      "dataSources": "California Water Board microplastics policy handbook; Southern California microplastics study for comparative concentrations. Bakersfield‑specific data not yet published.",
+      "concentrationProfile": {
+        "description": "No city‑specific microplastic concentration data are available as of 2025. Statewide programs indicate typical urban river concentrations of 0.05–16 particles/m³ in the Los Angeles River; these values illustrate possible baseline ranges but are not Bakersfield measurements."
+      }
+    },
+    "waterContamination": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "bar",
+      "locationContext": "Kern County’s groundwater basins and Kern River supply Bakersfield; agricultural runoff and oil production contribute to water quality issues.",
+      "systemOverview": "Contaminants include nitrate from fertilizers, arsenic and chromium from natural geology, industrial pollutants such as VOCs, and disinfection byproducts. Wastewater effluent may contain residual nutrients and emerging contaminants.",
+      "operationalDetails": "Cal Water routinely adjusts pH and disinfectant residuals. Source blending reduces arsenic and nitrate concentrations. Wastewater treatment includes BOD and solids removal; effluent is discharged to the Kern River or used for irrigation.",
+      "regulatoryContext": "Drinking water standards follow U.S. EPA MCLs (nitrate 10 mg/L, arsenic 10 µg/L, TTHMs 80 µg/L, HAA5 60 µg/L). State Water Board orders regulate wastewater discharge. PFAS monitoring follows UCMR 5.",
+      "performanceTrends": "Quarterly sampling shows seasonal variation in trihalomethanes and haloacetic acids with higher values during warmer months; nitrate levels remain low. PFAS results show sporadic detections.",
+      "waterQualityIndicators": "pH averages around 7.5–8.0; free chlorine residual ~1.3 ppm. BOD removal efficiency >95%.",
+      "energyUsage": "Treatment processes require chemicals (alum, chlorine), electricity for pumps and aerators, and natural gas for digesters. Energy use rises during summer to meet higher demand and maintain disinfection.",
+      "monitoringMethods": "Routine monitoring of nitrate, metals, VOCs, PFAS, trihalomethanes, and haloacetic acids. Wastewater monitoring includes BOD, TSS, nutrient species and coliforms.",
+      "treatmentTechnologies": "Blending and adsorption to reduce arsenic; granular activated carbon and aeration to remove VOCs; nitrification and denitrification to manage nitrogen; advanced oxidation for emerging contaminants.",
+      "challenges": [
+        "Agricultural runoff continues to introduce nitrates and pesticides",
+        "oil operations pose risk of VOC and brine leaks",
+        "emerging contaminants like PFAS and microplastics lack regulatory limits."
+      ],
+      "opportunities": [
+        "Groundwater recharge with treated wastewater, PFAS removal technologies such as ion exchange/resin, and adoption of advanced oxidation to degrade pesticides."
+      ],
+      "dataSources": "Cal Water Consumer Confidence Report; city WWTP data. Limited public reporting on industrial contaminants.",
+      "contaminantProfile": {
+        "description": "Drinking water nitrate concentrations ranged ND–5 mg/L in groundwater and 0.12–1.43 mg/L in imported water. Arsenic was mostly nondetect but one source reached 50 ppb before being taken offline. Haloacetic acids ranged ND‑70 ppb with annual average 40 ppb, and trihalomethanes ND‑59 ppb with average 42 ppb. PFOS and other PFAS were generally nondetect with occasional values up to 8.9 ppt."
+      }
+    },
+    "waterQuality": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "line",
+      "locationContext": "Bakersfield water distribution covers urban neighborhoods and outlying areas; sources include local wells, Kern River surface water and purchased water.",
+      "systemOverview": "Water quality is generally within regulatory limits but influenced by naturally occurring minerals, agricultural runoff and treatment processes.",
+      "operationalDetails": "Disinfection uses free chlorine with residual 0.27–2.0 ppm (average 1.3 ppm). Operators adjust pH, chlorine and corrosion control chemicals to maintain stable quality.",
+      "regulatoryContext": "Compliance with U.S. EPA and California regulations for primary and secondary standards; all samples in 2023 met MCLs.",
+      "performanceTrends": "Seasonal increases in trihalomethanes and haloacetic acids during summer; variations in pH and chlorine due to source blending and temperature.",
+      "waterQualityIndicators": "Key indicators include turbidity (<0.3 NTU), total dissolved solids (varies by source), hardness, alkalinity, nitrate (below 5 mg/L), arsenic (mostly nondetect), PFAS (<9 ppt).",
+      "energyUsage": "Chemical usage fluctuates with water demand; energy used for pumping, membrane filtration and distribution.",
+      "monitoringMethods": "Continuous turbidity and chlorine monitoring, periodic sampling for metals and organics, and compliance reporting to regulators.",
+      "treatmentTechnologies": "Membrane filtration for surface water, granular activated carbon for taste and odor control, and blending for mineral management.",
+      "challenges": [
+        "Hardness and salinity variations, potential for nitrification in distribution system, increasing PFAS monitoring requirements."
+      ],
+      "opportunities": [
+        "Adoption of advanced oxidation to reduce disinfection byproducts, improved corrosion control to minimize lead/copper leaching, and pilot studies on microplastics removal."
+      ],
+      "dataSources": "Cal Water Consumer Confidence Report 2023. Data from distribution system but not all wells; microplastics and some emerging contaminants not reported.",
+      "qualityProfile": {
+        "description": "Cal Water performed 51,345 tests on 9,327 samples for 188 constituents in 2023. Nitrate levels averaged 1.7 mg/L in groundwater and 0.53 mg/L in imported water. pH ranged 6.2–9.5 (groundwater) and 7.0–7.9 (surface water), averaging 8.0 and 7.5 respectively."
+      }
+    }
+  }
+}

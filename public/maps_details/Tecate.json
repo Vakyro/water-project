@@ -1,0 +1,141 @@
+{
+  "city": "Tecate",
+  "state": "Baja California",
+  "country": "Mexico",
+  "coordinates": {
+    "latitude": 32.5667,
+    "longitude": -116.625
+  },
+  "populationServed": 110000,
+  "dateCollected": "2025-11-27",
+  "lastUpdated": "2025-11-27",
+  "responsibleOrganization": "Comisión Estatal de Servicios Públicos de Tecate (CESPTE)",
+  "contactInfo": "https://www.cespte.gob.mx",
+  "budgetUSD": null,
+  "imageURLs": [],
+  "topics": {
+    "waterFacilities": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "gauge",
+      "locationContext": "Tecate is a small border city in Baja California located in a valley between Tijuana and Mexicali. The city's water and wastewater infrastructure is managed by the Comisión Estatal de Servicios Públicos de Tecate (CESPTE).",
+      "systemOverview": "The city has one municipal wastewater treatment plant that serves the urban area and several nearby communities. Potable water is supplied from local wells and the Rio Tecate.",
+      "capacityProfile": {
+        "description": "A NADBank project closure report states that Tecate's wastewater treatment plant has a capacity of 200 L/s (~4.56 MGD). The project improved the percolation filter but did not increase capacity; effluent now meets BOD and suspended solids standards.",
+        "wastewaterPlant": {
+          "capacity": { "value": 200, "unit": "L/s", "equivalentMGD": 4.56 }
+        }
+      },
+      "operationalDetails": "The plant uses percolation and filtration with aerobic processes; upgrades improved effluent quality but capacity remains at 200 L/s. Potable water treatment consists of conventional filtration and chlorination.",
+      "regulatoryContext": "Effluent must meet NOM‑001‑ECOL‑1996 for BOD and TSS. Potable water must comply with NOM‑127‑SSA1‑1994.",
+      "performanceTrends": "Wastewater flows vary with tourism and seasonal population changes; effluent quality improved after filter upgrades and now consistently meets BOD and TSS limits.",
+      "waterQualityIndicators": {
+        "description": "No quantitative water quality data are publicly available. The report notes that the plant now meets standards for BOD and suspended solids.",
+        "parameters": {
+          "BOD": { "meetsStandards": true },
+          "TSS": { "meetsStandards": true }
+        }
+      },
+      "energyUsage": "Energy use is moderate for aerators and pumps; upgrades focused on improving filtration efficiency.",
+      "monitoringMethods": "CESPTE monitors BOD, TSS and bacterial counts; potable water is tested for chlorine residual and coliforms.",
+      "treatmentTechnologies": "Percolation filters and aeration for wastewater; conventional filtration and chlorination for drinking water.",
+      "challenges": [
+        "Limited capacity restricts future growth",
+        "Industrial wastewater may overload the system",
+        "Groundwater resources are stressed during drought"
+      ],
+      "opportunities": [
+        "Rehabilitating infrastructure",
+        "Expanding capacity",
+        "Exploring water reuse for irrigation"
+      ],
+      "dataSources": "NADBank project closure report. Lack of detailed water quality and microplastic data."
+    },
+    "microplastics": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "gauge",
+      "locationContext": "Tecate's small urban watershed drains to the Tecate River and ultimately to the Tijuana River; plastic litter can enter waterways during storm events.",
+      "systemOverview": "No studies have been published on microplastics in Tecate's drinking water or wastewater. Given its proximity to Tijuana, similar sources such as road runoff and inadequate waste management likely contribute.",
+      "concentrationProfile": {
+        "description": "No quantitative data. Regional urban river studies show microplastic concentrations ranging from 0.05–16 particles/m³ (Los Angeles River) and 66–191 particles/L in Tijuana stormwater.",
+        "dataAvailable": false,
+        "comparativeData": {
+          "LARiver": { "range": { "min": 0.05, "max": 16 }, "unit": "particles/m³" },
+          "TijuanaStormwater": { "range": { "min": 66, "max": 191 }, "unit": "particles/L" }
+        }
+      },
+      "operationalDetails": "The wastewater plant does not have advanced filtration designed to remove microplastics. Waste management services and street sweeping help reduce litter.",
+      "regulatoryContext": "There are no Mexican regulations for microplastics in water; California's emerging standards may influence future policy.",
+      "performanceTrends": "No monitoring is available; microplastic loads likely increase during rain events.",
+      "waterQualityIndicators": "Not applicable due to data gaps.",
+      "energyUsage": "Advanced microplastic removal would increase energy demand; not currently implemented.",
+      "monitoringMethods": "Standard microplastic sampling (filtration and FTIR) would be required to establish a baseline.",
+      "treatmentTechnologies": "Potential upgrades include adding tertiary filtration and public campaigns to reduce plastic use.",
+      "challenges": [
+        "Lack of data",
+        "Limited resources",
+        "Potential contributions from cross‑border pollution"
+      ],
+      "opportunities": [
+        "Collaboration with universities and cross‑border programs to assess and mitigate microplastics"
+      ],
+      "dataSources": "No Tecate‑specific data; references to regional studies for comparison."
+    },
+    "waterContamination": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "bar",
+      "locationContext": "Tecate is located in a mountainous region; its groundwater and surface water sources can be affected by industrial effluent and septic discharges.",
+      "systemOverview": "Contaminants may include BOD, TSS, nutrients, pathogens, and industrial chemicals from local factories. Historically some communities lacked sewer connections, causing untreated sewage to enter the Tecate River.",
+      "contaminantProfile": {
+        "description": "No numerical contaminant data are publicly available. The NADBank report notes that after upgrades the Tecate wastewater plant meets effluent standards for BOD (monthly average ≤75 mg/L) and TSS (≤75 mg/L).",
+        "parameters": {
+          "BOD": { "target": 75, "unit": "mg/L", "meetsStandards": true },
+          "TSS": { "target": 75, "unit": "mg/L", "meetsStandards": true }
+        }
+      },
+      "operationalDetails": "The upgraded percolation filter improves removal of solids and organic matter. Ongoing maintenance is required to sustain performance.",
+      "regulatoryContext": "Effluent standards set by NOM‑001‑ECOL‑1996; potable water standards per NOM‑127‑SSA1‑1994. Industrial dischargers must obtain permits.",
+      "performanceTrends": "Effluent quality has stabilized after upgrades; contamination peaks occur during heavy rains when unsewered areas discharge into the river.",
+      "waterQualityIndicators": "General parameters include BOD, TSS, coliforms and nutrients. Specific measurements are not publicly reported.",
+      "energyUsage": "Normal operating conditions require aeration and pumping; additional treatment or desalination would increase energy demand.",
+      "monitoringMethods": "CESPTE monitors effluent BOD and TSS; limited monitoring for metals or emerging contaminants.",
+      "treatmentTechnologies": "Percolation filters, aeration and chlorination are used; future upgrades could include activated sludge or membrane bioreactors.",
+      "challenges": [
+        "Limited capacity to accommodate population growth",
+        "Contamination from septic systems and industry",
+        "Lack of funding for advanced treatment"
+      ],
+      "opportunities": [
+        "Expanding sewer coverage",
+        "Implementing water reuse projects",
+        "Seeking cross‑border funding"
+      ],
+      "dataSources": "NADBank project closure report; no quantitative water quality data available."
+    },
+    "waterQuality": {
+      "complianceStatus": "partial",
+      "recommendedGraph": "line",
+      "locationContext": "Tecate's drinking water comes from local wells and surface sources; distribution is managed by CESPTE.",
+      "systemOverview": "Water quality information is scarce. High mineral content and intermittent supply may affect taste and reliability.",
+      "qualityProfile": {
+        "description": "No publicly available data for parameters such as pH, TDS, nitrates or metals. The city's infrastructure serves most residents, but some rural areas rely on wells or tankered water.",
+        "dataAvailable": false
+      },
+      "operationalDetails": "Water is disinfected with chlorine; occasional boil‑water advisories may occur during system failures.",
+      "regulatoryContext": "Must meet NOM‑127‑SSA1‑1994 standards; compliance reports are not routinely published.",
+      "performanceTrends": "Unknown; supply and quality may fluctuate seasonally.",
+      "waterQualityIndicators": "Potential issues include hardness, TDS, nitrates and microbial contamination. Without data, these remain speculative.",
+      "energyUsage": "Pump operation and chlorination consume energy; no advanced treatment.",
+      "monitoringMethods": "Limited routine monitoring for chlorine and coliforms; no microplastic or PFAS monitoring.",
+      "treatmentTechnologies": "Conventional chlorination; future improvements might include filtration or desalination.",
+      "challenges": [
+        "Lack of data impedes assessment",
+        "Infrastructure maintenance and groundwater depletion are concerns"
+      ],
+      "opportunities": [
+        "Implementing regular monitoring and public reporting",
+        "Exploring water reuse and conservation"
+      ],
+      "dataSources": "NADBank report provides qualitative information; quantitative water quality data not available."
+    }
+  }
+}

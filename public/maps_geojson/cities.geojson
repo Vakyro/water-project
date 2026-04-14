@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tijuana",
+        "name": "Tijuana",
+        "country": "Mexico",
+        "population": 1922523
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.0382, 32.5149]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rosarito",
+        "name": "Rosarito",
+        "country": "Mexico",
+        "population": 120000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.0331, 32.3661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ensenada",
+        "name": "Ensenada",
+        "country": "Mexico",
+        "population": 519813
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.5963, 31.8667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mexicali",
+        "name": "Mexicali",
+        "country": "Mexico",
+        "population": 1049792
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.4683, 32.6245]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tecate",
+        "name": "Tecate",
+        "country": "Mexico",
+        "population": 114000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.6264, 32.5722]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-diego",
+        "name": "San Diego",
+        "country": "USA",
+        "population": 1386932
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.1611, 32.7157]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "carlsbad",
+        "name": "Carlsbad",
+        "country": "USA",
+        "population": 114746
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.3506, 33.1581]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "imperial-beach",
+        "name": "Imperial Beach",
+        "country": "USA",
+        "population": 28317
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.1131, 32.5839]
+      }
+    }
+  ]
+}

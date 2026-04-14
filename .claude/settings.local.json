@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(index \")",
+      "Bash(pnpm add:*)",
+      "Bash(node -e \"require\\(''dotenv''\\).config\\({path:''.env.local''}\\); console.log\\(Object.keys\\(process.env\\).filter\\(k => [''SUPABASE_URL'',''SUPABASE_KEY'',''GROQ_API_KEY'',''EMBEDDING_SERVICE_URL''].includes\\(k\\)\\)\\)\")"
+    ]
+  }
+}

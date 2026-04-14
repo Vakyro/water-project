@@ -1,0 +1,119 @@
+{
+  "city": "Los Angeles",
+  "state": "California",
+  "country": "USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  },
+  "populationServed": 4000000,
+  "dateCollected": "2025-11-27",
+  "lastUpdated": "2025-11-27",
+  "responsibleOrganization": "Los Angeles Department of Water and Power (LADWP) / LA Sanitation & Environment",
+  "contactInfo": "https://www.ladwp.com; https://lacitysan.org",
+  "budgetUSD": null,
+  "imageURLs": [],
+  "topics": {
+    "waterFacilities": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "gauge",
+      "locationContext": "Los Angeles, California, is a coastal metropolitan area served by imported water from the Eastern Sierra via the Los Angeles Aqueduct and by local groundwater and recycled water.",
+      "systemOverview": "The Los Angeles Department of Water and Power (LADWP) manages drinking water production and distribution through the Los Angeles Aqueduct Filtration Plant, groundwater wells and purchases from the Metropolitan Water District (MWD). Wastewater is treated at facilities including Hyperion Water Reclamation Plant (HWRP), Los Angeles–Glendale Water Reclamation Plant and Donald C. Tillman Water Reclamation Plant.",
+      "operationalDetails": "HWRP uses primary, secondary and advanced tertiary treatment with nutrient removal and produces reclaimed water for irrigation and industrial uses. The LAG plant uses advanced tertiary treatment and discharges to the Los Angeles River. Drinking water plants operate rapid sand filtration, disinfection, and corrosion control; MWD’s Jensen, Weymouth and Diemer plants supplement supply.",
+      "regulatoryContext": "Wastewater discharges are regulated by NPDES permits; the LAG plant’s dry‑weather discharge must not exceed its 20 MGD design capacity. Drinking water must meet U.S. EPA and California standards and includes monitoring under the Unregulated Contaminant Monitoring Rule (UCMR 5).",
+      "performanceTrends": "Hyperion treats ~350 MGD of wastewater; flows peak during winter storms. Upgrades aim to convert secondary treatment to membrane bioreactors for indirect potable reuse.",
+      "waterQualityIndicators": "Effluent quality meets requirements for BOD and TSS; the Hyperion plant removes nutrients and pathogens. Drinking water pH averages ~7.7–8.3 depending on source; nitrates <0.5 mg/L; chloramine residual 1.9 mg/L (1.7–2.0 mg/L).",
+      "energyUsage": "Wastewater plants use aeration and tertiary filtration; biogas from digestion offsets energy use. The Hyperion plant is exploring energy recovery and advanced nutrient removal technologies.",
+      "monitoringMethods": "Continuous monitoring for flow, BOD, TSS, nutrients and coliforms; laboratories analyze metals, organics, and emerging contaminants. Drinking water is sampled for regulated and unregulated parameters including PFAS.",
+      "treatmentTechnologies": "Existing technologies include primary clarification, aeration, nitrification/denitrification, filtration and disinfection. Planned upgrades will add membrane bioreactors and advanced water purification (microfiltration, reverse osmosis, UV‑advanced oxidation) to produce potable reuse water.",
+      "challenges": [
+        "Aging sewers and high storm inflows cause occasional bypasses",
+        "ocean discharges raise ecological concerns. Water supply faces drought and climate variability, requiring diversification and conservation."
+      ],
+      "opportunities": [
+        "The Hyperion 2035 program aims to transform HWRP into a potable reuse facility, supplying 50 MGD and reducing ocean discharges. Expansion of groundwater recharge and stormwater capture will enhance resilience."
+      ],
+      "dataSources": "Hyperion 2035 project documents; LAG NPDES permit; blog summarizing plant capacities. Data gaps include real‑time operational performance.",
+      "capacityProfile": {
+        "description": "Hyperion Water Reclamation Plant’s initial capacity was 30 MGD and after upgrades it can treat up to 450 MGD, processing an average of 350 MGD. The Los Angeles–Glendale Water Reclamation Plant has a design capacity of 20 MGD. The Hyperion 2035 program plans to deliver 56,044 acre‑ft per year (~50 MGD) of purified water via an advanced water purification facility."
+      }
+    },
+    "microplastics": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "gauge",
+      "locationContext": "The Los Angeles and San Gabriel Rivers drain a highly urbanized watershed into the Pacific Ocean; runoff conveys microplastics from roads, textiles and urban debris.",
+      "systemOverview": "Studies by the Southern California Coastal Water Research Project measured microplastics in water, sediment and fish in the Los Angeles and San Gabriel Rivers between 2021–2023.",
+      "operationalDetails": "The study sampled mid‑stream and downstream sites influenced by treated wastewater effluent and urban runoff, using bulk water and net sampling, organic digestion and density separation, and identification via laser direct infrared spectroscopy.",
+      "regulatoryContext": "California adopted microplastics monitoring for drinking water; microplastics are not yet regulated in surface waters but research informs the State Water Board’s regulatory development.",
+      "performanceTrends": "The study observed no strong spatial or temporal trends; concentrations fluctuated with storm events and site conditions.",
+      "waterQualityIndicators": "Microplastic polymers included polyethylene, rubber, polystyrene, polyamide and polyurethane. Particle sizes were dominated by small (<500 µm) fragments and fibers.",
+      "energyUsage": "Monitoring requires laboratory instruments like LDIR and µ‑FTIR. Environmental energy impacts relate to road runoff and wastewater discharges carrying microplastics.",
+      "monitoringMethods": "Sampling used autosamplers and crane‑deployed nets during storm events; samples underwent organic digestion, density separation, size fractionation and spectroscopic identification.",
+      "treatmentTechnologies": "Existing wastewater plants remove some microplastics via secondary and tertiary treatment. Stormwater capture and street sweeping reduce sources. Advanced filtration and biofilters are being explored by researchers at UCLA and local agencies.",
+      "challenges": [
+        "High urban density leads to constant microplastic inputs",
+        "tire wear particles and synthetic fibers dominate",
+        "health effects are uncertain."
+      ],
+      "opportunities": [
+        "Improving stormwater treatment, banning single‑use plastics, and developing tire wear capture technologies can reduce inputs. Research can refine sampling methods and polymer identification."
+      ],
+      "dataSources": "Southern California Coastal Water Research Project technical report. Data limited to specific river sites; microplastic levels in tap water and groundwater remain largely unreported.",
+      "concentrationProfile": {
+        "description": "Surface water in the Los Angeles River contained an average of 8.9 particles per m³ (range 0.05–16 particles/m³) while the San Gabriel River averaged 74 particles/m³ (0.1–330 particles/m³). Surficial sediments averaged 19 particles/g dry weight in the Los Angeles River and 6.7 particles/g in the San Gabriel River. Fish collected from the rivers averaged 70 particles per individual, mostly 53–125 µm in size."
+      }
+    },
+    "waterContamination": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "bar",
+      "locationContext": "LADWP supplies water across the city from the Los Angeles Aqueduct, local wells and imported MWD water; contamination sources include urban runoff, industrial discharges and natural mineral dissolution.",
+      "systemOverview": "Major contaminants of concern include nitrate, nitrite, disinfection byproducts, metals (lead, copper), PFAS compounds and emerging contaminants. The Los Angeles River receives treated effluent and urban runoff containing nutrients, pathogens and microplastics.",
+      "operationalDetails": "Water blending and corrosion control maintain low lead and copper levels. Wastewater treatment removes BOD and nutrients but discharges may still contain residual nitrate and microplastics. Urban stormwater is largely untreated before entering rivers.",
+      "regulatoryContext": "Drinking water quality is regulated by U.S. EPA and state MCLs. Wastewater discharge permits set effluent limits for BOD, TSS, nutrients and toxics. Stormwater permits regulate runoff but microplastics have no numeric limit.",
+      "performanceTrends": "Disinfection byproducts vary seasonally with temperature and organic matter; nitrate and metals remain stable. Microplastic loads increase during storms.",
+      "waterQualityIndicators": "pH ranges 7.2–9.0 depending on source; fluoride averaged 0.7 mg/L; trihalomethanes and haloacetic acids remained below MCLs.",
+      "energyUsage": "Treatment plants consume large amounts of electricity for pumping and aeration; advanced purification processes will increase energy use but incorporate energy recovery.",
+      "monitoringMethods": "LADWP performs continuous monitoring for chlorine, turbidity and pH; regular sampling for metals, organics and PFAS. Microplastic monitoring uses new spectroscopic techniques in research settings.",
+      "treatmentTechnologies": "Corrosion control with orthophosphate reduces lead and copper; granular activated carbon and ozone reduce disinfection byproducts; membrane bioreactors and advanced oxidation (planned at Hyperion) will reduce contaminants for potable reuse.",
+      "challenges": [
+        "Aging distribution infrastructure may leach metals",
+        "stormwater pollution continues to contaminate rivers",
+        "emerging contaminants like PFAS and microplastics lack regulatory limits."
+      ],
+      "opportunities": [
+        "Hyperion 2035 will produce potable reuse water reducing reliance on imported supplies",
+        "expansion of stormwater capture projects",
+        "adoption of PFAS treatment technologies."
+      ],
+      "dataSources": "LADWP Drinking Water Quality Report 2024; SCCWRP microplastics report. Data on industrial contaminants and private wells are limited.",
+      "contaminantProfile": {
+        "description": "Nitrate and nitrite levels in treated drinking water were <0.4–0.6 mg/L, well below the MCL of 10 mg/L. Copper 90th percentile concentration was 529 µg/L with no sample exceeding the action level. Chloramine residual averaged 1.9 mg/L (range 1.7–2.0 mg/L). PFAS monitoring under UCMR 5 detected lithium but PFOS/PFOA were below detection limits."
+      }
+    },
+    "waterQuality": {
+      "complianceStatus": "compliant",
+      "recommendedGraph": "line",
+      "locationContext": "The distribution system serves a metropolitan area divided into northern and southern wellfields, plus water imported through the Los Angeles Aqueduct and MWD connections.",
+      "systemOverview": "Water quality varies by source but meets all state and federal drinking water standards. Key parameters include pH, chlorine residual, hardness, TDS, nitrates, trihalomethanes, haloacetic acids, metals and unregulated substances.",
+      "operationalDetails": "LADWP uses chloramination for distribution system disinfection. Operators blend groundwater and surface water to balance mineral content and add corrosion control chemicals. Regular flushing and maintenance maintain residual disinfectant.",
+      "regulatoryContext": "Compliance with MCLs for all contaminants; lead/copper rule action levels; turbidity and disinfection byproduct limits. Unregulated contaminant monitoring includes PFAS and lithium.",
+      "performanceTrends": "Disinfection byproduct concentrations fluctuate seasonally; nitrates and metals remain consistently low. pH is maintained in the optimal range for corrosion control.",
+      "waterQualityIndicators": "Total dissolved solids vary from 200–600 mg/L depending on source; hardness from 50–250 mg/L as CaCO₃. Fluoride maintained at 0.7 mg/L.",
+      "energyUsage": "Energy use associated with pumping and chloramination; chemical consumption includes ammonium sulfate and orthophosphate.",
+      "monitoringMethods": "Daily online instruments for pH, turbidity and chlorine; laboratory analysis for metals, organic compounds and radiological parameters.",
+      "treatmentTechnologies": "Rapid sand filtration and disinfection; corrosion control; planned advanced purification to produce potable reuse water.",
+      "challenges": [
+        "Potential for nitrification in chloraminated systems",
+        "lead release from household plumbing",
+        "extreme drought reducing imported supplies."
+      ],
+      "opportunities": [
+        "Increased use of recycled water, expanded stormwater capture, and pilot-scale microplastics monitoring to inform future regulations."
+      ],
+      "dataSources": "LADWP Drinking Water Quality Report 2024. Data primarily represent distribution system; private wells and small systems not included.",
+      "qualityProfile": {
+        "description": "pH values for the Los Angeles Aqueduct Filtration Plant averaged 7.7 (range 7.2–8.5); northern wells averaged 7.9 (6.9–9.0); southern wells averaged 8.0 (7.1–9.0); MWD Jensen and Diemer plants averaged 8.2–8.3 (ranges 7.8–8.9). Nitrate (as N) values were <0.5 mg/L. Chloramine residual averaged 1.9 mg/L. The 90th percentile copper concentration was 529 µg/L."
+      }
+    }
+  }
+}
